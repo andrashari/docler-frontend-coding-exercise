@@ -35,6 +35,19 @@ html {
   padding: 8px;
 }
 
+#message-box::-webkit-scrollbar {
+  width: 5px;
+}
+
+#message-box::-webkit-scrollbar-track {
+  background: rgb(165, 165, 165);
+}
+
+#message-box::-webkit-scrollbar-thumb {
+  background-color: rgb(82, 82, 82);
+  border: 1px solid rgb(165, 165, 165);
+}
+
 .message {
   white-space: pre-wrap;
   word-wrap: break-word;
