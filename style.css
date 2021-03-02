@@ -29,22 +29,28 @@ html {
   height: calc(100vh - 40px);
 }
 
-#message-list {
-  line-height: 3;
+#message-box {
+  max-height: calc(100% - 40px);
+  overflow: auto;
+  padding: 8px;
 }
 
-#message-list li {
-  list-style-type: none;
-}
-
-#message-list li:nth-child(odd) {
-  float: left;
+.message {
+  white-space: pre-wrap;
+  word-wrap: break-word;
   clear: both;
+  max-width: 100%;
+  line-height: 1.5;
+  margin: 1em 0;
 }
 
-#message-list li:nth-child(even) {
+.current-user {
   float: right;
-  clear: both;
+  text-align: right;
+}
+
+.remote-user {
+  float: left;
 }
 
 #controls {
