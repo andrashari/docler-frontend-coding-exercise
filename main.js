@@ -97,7 +97,8 @@
   };
 
   // General, basic error handling
-  window.addEventListener('error', function (e) {
+  /*window.addEventListener('error', function (e) {
     alert(e.error);
-  });
+  });*/
+
 })();
